@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: gainsboro;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    background-color: white;
+    width: 400px;
+    height: 450px;
+    border-radius: 30px;
+    min-width: 320px;
+}
+.top-section{
+    display: flex;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    justify-content: center;
+    height: 150px;
+    background-color: rgb(90, 129, 255);
+}
+.top-section img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: white solid 3px;
+    box-shadow: rgb(90, 129, 255) 0 3px;
+    position: relative;
+    top: 25px;
+}
+.bottom-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 45px;
+    text-align: center;
+}
+.name{
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.specialty{
+    font-size: 15px;
+    color: rgb(123, 123, 123);
+    font-weight: 600;
+}
+.buttons{
+    text-align: center;
+}
+.social-media .bi{
+    margin: 0 20px;
+}
+.bi-facebook{color: rgb(19, 71, 182);}
+.bi-twitter{color: rgb(0, 170, 255);}
+.bi-instagram{color: rgb(255, 0, 98);}
+.bi-youtube{color: red;}
+.buttons button{
+    width: 150px;
+    margin: 5px;
+    padding: 5px 10px;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.icon-div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.icon-div p{
+    margin-left: 8px;
+}
+.icon-border{
+    border: 2px black solid;
+    border-top: none;
+    border-bottom: none;
+    padding: 0 20px;
+}
